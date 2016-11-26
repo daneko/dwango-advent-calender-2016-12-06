@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void logWithEnum(SampleEnum i) {
-        Log.d(TAG, "Enum value is " + i);
+        Log.d(TAG, "Enum value is " + i.ordinal());
     }
 
     static final int VALUE1 = 1;
